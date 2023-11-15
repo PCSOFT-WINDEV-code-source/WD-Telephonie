@@ -1,0 +1,190 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Procedures globales de WD Telephonie
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x11b6dcf10191e48f
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAfEVzv1KdQWkPQgjholJsMfcWORaCRJ/ZJtFE9ayQcLrYFSABojZ5aMYV/q68UbuMDHkOX4M7OzyQVLMmq2fmdTfJLU2dcMj8EgNXnOlOy3o77K4ZvDmcO+C2JG+i871caK44dT1fQG8KIWe9wO/9g6mcCca0g2D9Xr4Yk9wjwD7WiOKpR4Lz2a6WgCJ0+c57n3l83Ceh1iJOH4OXKES7+t7O+5jWZRbbvFYedT6kHbrVWjvruVR7ww7LSLs9i2afON8SZ4MzOHUcImbUmODM66JrNIYC7bNRAFJvGLMX+vya+xx7rvis2QnrOs4WfuhheK1D0JZbjtpIjX12H3hUhCxLTNGBAg8Evj57wdA==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ChargementConfiguration
+     internal_properties : CAAAAAgAAABrjsxBMkfows5wMSd0XHHxO7mVG4pK6nv/GTR0GCOYj5zh7lrS8LedouFnGNOmDiXJGpURsWJZcWLMqF3hqvdgFKVXOFCXyP31W1qB+bwWEbQs5laYUbIvdNFErj0s9L7z9bkWaCDXxX4xj3K7IWtvLXj9twQhDQa8UpUDzeZ1OeYP8C0I/YDBV3kvTqmYYUTr7vgzYtI4Lprue2woWpA=
+     procedure_id : 1276450472077747343
+     type_code : 15
+     code : |1-
+      Procédure ChargementConfiguration()
+      	
+      	// ------------------------- Gestion du son -------------------------
+      	gvcConfig.bJouerSons = ChargeParamètre("GestionSon")	
+      	
+      	// --------------------- Gestion de la notification par Email ---------
+      	gvcConfig.bNotifierEmail = ChargeParamètre("NotifierEmail")	
+      	gvcConfig.sServeurSMTP = ChargeParamètre("ServeurSMTP")	
+      	gvcConfig.sAdresseEmail = ChargeParamètre("AdresseEmail")	
+      	gvcConfig.sSujetEmail = ChargeParamètre("SujetEmail")
+      	
+      	// --------------------- Configuration générale ---------
+      	
+      	gvcConfig.bMinimiserCharge = ChargeParamètre("MinimiserCharge")
+      	gvcConfig.bMinimiserFerme = ChargeParamètre("MinimiserFerme")
+      	gvcConfig.bFichierLog = ChargeParamètre("FichierLog")
+      	
+      	// --------------------- Configuration TAPI    ---------	
+      	gsPeripherique = ChargeParamètre("Périphérique")
+     type : 458752
+   -
+     name : SauvegarderConfiguration
+     internal_properties : CAAAAAgAAABrjsxBMkfows5wMSd0XHHxO7mVG4pK6nv/GTR0GCOYj5zh7lrS8LedouFnGNOmDiXJGpURsWJZcWLMqF3hqvdgFKVXOFCXyP31W1qB+bwWEbQs5laYUbIvdNFErj0s9L7z9bkWaCDXxX4xj3K7IWtvLXj9twQhDQa8UpUDzeZ1OeYP8C0I/YDBV3kvTqmYYUTr7vgzYtI4Lprue2woWpA=
+     procedure_id : 1276450472077812879
+     type_code : 15
+     code : |1-
+      Procédure SauvegarderConfiguration()
+      
+      	// ------------------------- Gestion du son -------------------------
+      	sauveParamètre("GestionSon", gvcConfig.bJouerSons)	
+      	
+      	// --------------------- Gestion de la notification par Email ---------
+      	SauveParamètre("NotifierEmail", gvcConfig.bNotifierEmail)	
+      	SauveParamètre("ServeurSMTP", gvcConfig.sServeurSMTP)	
+      	SauveParamètre("AdresseEmail", gvcConfig.sAdresseEmail)	
+      	SauveParamètre("SujetEmail", gvcConfig.sSujetEmail)
+      	
+      	// --------------------- Configuration générale ---------
+      	
+      	SauveParamètre("MinimiserCharge", gvcConfig.bMinimiserCharge)
+      	SauveParamètre("MinimiserFerme", gvcConfig.bMinimiserFerme)
+      	SauveParamètre("FichierLog", gvcConfig.bFichierLog)
+      	
+      	// --------------------- Configuration TAPI    ---------	
+      	gsPeripherique = ChargeParamètre("Périphérique")
+     type : 458752
+   -
+     name : NotificationAppel
+     internal_properties : CAAAAAgAAACunwF453KusWpoTQSjKY9Y8Bsm91JJJSgN7bRg/PkIXQJ52SPTHUWQlURlxdzQDtd4yaXSWgommcSi34sOqSSv0qDE0bdtWFcAQ+EeemmiJwxRTFeQ02y9z6+Uw4rZCsGk6YcWcX5dIl+iihF1
+     procedure_id : 1276450472077878415
+     type_code : 15
+     code : |1-
+      Procédure NotificationAppel(sNom est une chaine,sPrenom est une chaine, sSociete est une chaine)
+      	
+      	// Ouverture d'une session SMTP (simple envoi)
+      	si EmailOuvreSessionSMTP(NOTIFICATION, gvcConfig.sServeurSMTP) alors
+      		
+      		clJournalLog:AjouterEvenement(<§@3c334877217bfe25000d§>, ErreurInfo())
+      		
+      		EmailRAZ()
+      		
+      		// Mise en place du contenu de l'email
+      		Email.Sujet = gvcConfig.sSujetEmail
+      		Email.NbDestinataire = 1
+      		Email.Destinataire[1] = gvcConfig.sAdresseEmail
+      		Email.Expéditeur = gvcConfig.sAdresseEmail
+      		Email.Message = "Appel de " + sNom + " " + sPrenom + RC + ...
+      						"de la société : " + sSociete + RC + ...
+      						" le : " + DateVersChaîne(DateDuJour(), "JJJJ JJ MMMM")
+      		
+      		// Envoie du message				
+      		EmailEnvoieMessage(NOTIFICATION)
+      		SI ErreurDétectée alors
+      			clJournalLog:AjouterEvenement("Impossible d'envoyer le message", ErreurInfo())	 
+      		FIN
+      		
+      	SINON
+      		clJournalLog:AjouterEvenement("Impossible d'établir la connexion avec le serveur SMTP", ErreurInfo())
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3c334877217bfe25
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : HKEY_CURRENT_USER\Software\PC SOFT\WD Telephonie
+     index : 0
+   -
+     text :
+      fr-FR : GestionSon
+     index : 1
+   -
+     text :
+      fr-FR : NotifierEmail
+     index : 2
+   -
+     text :
+      fr-FR : ServeurSMTP
+     index : 3
+   -
+     text :
+      fr-FR : AdresseEmail
+     index : 4
+   -
+     text :
+      fr-FR : SujetEmail
+     index : 5
+   -
+     text :
+      fr-FR : MinimiserCharge
+     index : 6
+   -
+     text :
+      fr-FR : MinimiserFerme
+     index : 7
+   -
+     text :
+      fr-FR : FichierLog
+     index : 8
+   -
+     text :
+      fr-FR : Périphérique
+     index : 9
+   -
+     text :
+      fr-FR : Impossible de sauvegarder la configuraton actuelle
+     index : 10
+   -
+     text :
+      fr-FR : impossible de sauvegarder la configuration actuelle
+     index : 11
+   -
+     text :
+      fr-FR : NOTIFICATION
+     index : 12
+   -
+     text :
+      fr-FR : Envoi d'une notification
+     index : 13
+   -
+     text :
+      fr-FR : "Appel de "
+     index : 14
+   -
+     text :
+      fr-FR : "de la société : "
+     index : 15
+   -
+     text :
+      fr-FR : " le : "
+     index : 16
+   -
+     text :
+      fr-FR : Impossible d'envoyer le message
+     index : 17
+   -
+     text :
+      fr-FR : Impossible d'établir la connexion avec le serveur SMTP
+     index : 18
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,129 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cJournalLog
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x3c33224f6a65f0bd
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      cJournalLog est une classe
+      	privee
+      		m_nIdFichier 	est un entier
+      		m_sNomFichier 	est une chaine
+      		m_bActive 		est un booléen	
+      Fin
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 4337848590512419005
+     type_code : 27
+     code : |1-
+      Procédure Constructeur(sNomFichierLog)
+      
+      	m_sNomFichier = sNomFichierLog
+      	m_bActive = Faux 					// par défaut, la gestion d'un journal n'est pas active
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 4337848590038331581
+     type_code : 28
+     code : |1-
+      Procédure Destructeur()
+      
+      	// Fermeture du fichier journal
+      	si m_nIdFichier > 0 alors
+      		fFerme(m_nIdFichier)
+      	FIN
+     type : 655360
+   -
+     name : AjouterEvenement
+     internal_properties : CAAAAAgAAACnPmVOaEzYO7PRLhfG/dwh2CZqpGFP76YXpJqv9/FOzsf5GQcRX3ec1MqUgPPNhSmLHLzN3M+YiyPernJpliyumkxyXocec+Yyq1M2IPB7Me+s2QfK/rPSVjO99w7q6UmpO1o11LTPtG5pBLMM4c+lfhz2Uh1QdfUSNwG0Y6SGG9HHV7IL2OXYoAS8hm4BSIs=
+     procedure_id : 4337848602230193053
+     type_code : 12
+     code : |1-
+      Procédure AjouterEvenement(sMessage1 est une chaine, sMessage2 est une chaine = "") : booléen
+      	
+      	// On ouvre le fichier log si nécessaire
+      	Si bOuvertureFichierLog()=Faux alors RENVOYER Faux
+      	
+      	// On indique la date et l'heure de l'évènement
+      	fEcritLigne(:m_nIdFichier, "------------------- " + DateVersChaîne(DateDuJour(), "JJJJ JJ MMMM") + ... 	
+      								" à " + Gauche(HeureVersChaine(Maintenant()), 5) + ... 
+      								" -----------------------") 
+      	SI ErreurDétectée alors RENVOYER Faux
+      	
+      	// On ajoute les informations spécifiées
+      	si Sansespace(sMessage1) <> "" alors 
+      		fEcritLigne(m_nIdFichier,sMessage1) 
+      		SI ErreurDétectée ALORS RENVOYER Faux
+      	FIN
+      	
+      	si Sansespace(sMessage2) <> "" alors 
+      		fEcritLigne(m_nIdFichier,sMessage2)
+      		SI ErreurDétectée ALORS RENVOYER Faux
+      	FIN
+      	
+      	fEcritLigne(m_nIdFichier, "-------------------------" + RC)
+      	SI ErreurDétectée ALORS RENVOYER Faux
+      
+      // Par défaut, l'ajout de l'événement se déroule correctement
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : bOuvertureFichierLog
+     procedure_id : 4337849067352728769
+     type_code : 12
+     code : |1-
+      Procédure PRIVEe bOuvertureFichierLog() : booléen
+      
+      	// On vérifie que le nom du fichier journal est connu
+      	Si m_sNomFichier~="" alors RENVOYER Faux
+      	SI m_bActive=Faux alors RENVOYER Faux
+      	
+      	// On vérifie que le fichier n'est pas déjà ouvert
+      	Si m_nIdFichier <> -1 et m_nIdFichier <> 0 alors RENVOYER Vrai
+      	
+      	// Ouverture du fichier en ajout 
+      	m_nIdFichier = fouvre(frepexe() + [fsep] + m_sNomFichier, foCréationSiInexistant + foLectureEcriture + foAjout)
+      	
+      	// On vérifie l'ouverture du fichier
+      	si m_nIdFichier = -1 alors RENVOYER Faux
+      
+      // Par défaut, l'ouverture du fichier se déroule correctement
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : Activé
+     procedure_id : 4337887154871923636
+     type_code : 12
+     code : |1-
+      Procédure Activé(bActive est un booléen)
+      
+      	// Mémorisation de l'activation de la gestion du journal
+      	m_bActive = bActive
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3c334566059904ae
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : " à "
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

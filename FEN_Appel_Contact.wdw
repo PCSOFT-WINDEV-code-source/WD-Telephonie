@@ -1,0 +1,341 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_APPEL_CONTACT
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : Appel d'un contact
+ subtype : 0
+window :
+ name : FEN_APPEL_CONTACT
+ identifier : 0x293f97911e9253ae
+ internal_properties : CAAAAAgAAABTbcCWhUiAD7PHHf0Q8pd5Ri59DtZNG5M4eCHc5IqKhgxbU9HGVqGbtl2H4/tYgsrekzYojpx+YxTSiaOP1ptkjJLNObUSB9Dnz1mQcpk2OfIa5hpq0bYPgXo1yUmAiFpgVWU7lKHm+Dd3ru9qJEOrCoh2N2MuHSO7kJidyuu05wUMCre6m+xU/H/D7saWZw3Xmar0OcA7Bv9l4AuSQeN5wYdx0WGYcyi9FAkvDluqgrEtfOJO3gBnbOC6HLNwgFFDVllRTMX4gHN4ZiI54amvSzzzgcMOD+VzFF/culGjHyG7V1vwwFuZC3HYnqr8elJMiC6V726y6LZoyC5vK828/h8zkYURabsv4aIc1/RId0+dBj3NJMZ9EXkknSP/IfrD9vTI9etTWBmFC0/eGeVje03d8Dj+HxTqVUDeM6m1xi+XPriOkHr7YYxH29/Y88PaDFoItvvfofexJwQgoWuto4RQMW9Hj4Z2ST4M9MbXWAXGfOxsAeoSssWEAlU4AK1RqMmLliYIDv83Jk81puEYFiCa/xh3bjmOO6o+q357iuLgqufR5v824QxY7uXIjYcg3t8FwjHsgUrDA3tvWuqRbAV2EmRuoBUjsUK++TgIrAjTxLxwg4leEN2cxloFMbeoVfA6z4AEPsw2tNP4UIlt9vnE5UtEGo26jr8TVOvAJZBNFvWxIeQHzIfmtUO6lFdTLtdQcGYRdbMFtFIKXjPhSy4YF5J5vXwGzH6MWPIa092GRw7aGxozeWVgzmtT4BbmPO1g9sPmYKUVCm6cir/mOC8MY31rOQ1ajY0Mdbw8Qt51Au8RdzhgR6Y+CmGBQRUa0n7anc9as1WCoiZOoPYf3nlh1GEr2255OZvkWnXLWK5ghqNnLYVB91MTb53rpHnG5eyZh/sBftg8Mt3ySQ2miQbNV1NJ9H/CMSadbh210uWeX37/p8MuxrJqFEA=
+ properties :
+  width : 314
+  height : 195
+  widthClient : 312
+  heightClient : 163
+ controls :
+  -
+    name : Lib_Société
+    identifier : 0x293f97911e9453ae
+    internal_properties : CAAAAAgAAABgvwZUDtkQXVSTQSK+YzbdeFiYUolNKyeSc51oaNJN2BcplKQHmtt6PNtMdetXA7SJtPT41Tc6I05lTv8ZlsFYMwdQIOgYmp+Sgs8Rsk0kmmUzAUFjuoTZiCc2nkdgaiUUqx4Q8zx7jQI9yLhVIvZ7+GkdbGYyIzqdEZejBR6BXYC+NyJagMv7vWzE0yT3oA8PxbLb+QWhgnry/2PuOcdHPy2LPpie3nKNrkWvG73LpS404ZWuC98VZHIvKLIvzRvC+LX5ElmfISRCMxDFT4wW03J+BcAYp/cyupj6tvgg9UyQElZ7UllWbu3AYoPxwZm79CkgiFlN0UNl0+3A3f01qo6M0Z35nR79WkO+7RrtMyBGWrylUH3Iatefr+rqoimOXXj6bn7I/9eyNua+iMmUt+t7aldnksUoga8L29JWEzKRz0oe3uFRc+bXAdy0GsuP4YuZXkXZDceTbHmQw8SPTEkjJUlZ4qMjYAfPw/fgSRGuTMFNE2Nw2hhSRPQQmEre3bk+AsU3ikVKxDZo4L2MVfTbewzXCcg=
+    properties :
+     x : 124
+     y : 6
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lib_Nom
+    identifier : 0x293f97911e9553ae
+    internal_properties : CAAAAAgAAACeiPyb0R7CYnPeMD7O1L8rLKvqKd5a3AhyyCQP9cgs2wQfAk7R5pFpQAoZZ86Pq1RLEeA46AypMZ+E8O6Jq1UvgRzUH7jni0zm21/EjK2dGT1TosN/eBpMvxCMI1HJVl8K+b52UbLlAH0uz5n+kDCEAkLuOR6r5j8W6zc25OO/uRcB1DMyKACy+Chrv5O4foVf6QuTiRrhFu1TJrP3NRpZw058HeQvba1HUoYPjrW12XZRbh7wT3qqMI+9DOMWM+qqwAhZSxA3Y+mzfQBD0TMeKjAUGpxNZMCCLMzZVQLJy4es1J0DP8Ll5rcIV5ipPqd0/sV9NByk8qP7GT5RD1ALt6Ta0Du+0qFx4CUL0lSCCTtAvJPLiWIdQBtl0Fu47RevB9qnEm0PwpGKHiGh9uieCF3HQe0Y+2y6dYfq2vRFH8uRdUsgdSTqzXbvaKsZnimwEiHQpzGN08YjDsv81Z962isrVgZXSUK/WlECkRynF8gGTMYowoqDJC2RO4zIHYDpNT+kEJLS5aiR2X6zY0aB6S5QlCNQ8rmjkZ0=
+    properties :
+     x : 124
+     y : 32
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lib_Prénom
+    identifier : 0x293f97911e9653ae
+    internal_properties : CAAAAAgAAACW+8LRj9p/K7CkOYEsYJkNV+FbCA23hQYKOxlKB/q4uH1gvZcBFbW5XgvucPudqcxuyJnTG1cmxoNzGnoBAhTodvnfbM53HweMDIak71bD7+pHReM/Vc009PEcS2ZMXoi3QXNAg/S6kivJMfaw9MXT6sR1KdVdK1HhMF7pIcC3T+BLvqZz1oIyrSsGPMIq2/B4y2fLdqNvWewU2yiCnAmYAYSh7yHhZwTE128t3LoIwgJqpZNGvHYlFeV/uZzGjDMGFhV2nO93rvMiEplAILo41FYxT3n+4UMVp2rEhoyme1xmGSJpRfbu+sLjo9jQ7CFTLE19jk+gl2KvwQw6swDXrYhexUKa8nWb3Wv1QIzftF4U4xiZidMW90wRSqxYQB3PoUUBX4Xga+jJQg0NfpvlcLXPFDs/xA4vbpQcRrJFr/bsVAS5prm3G+4NtKbZV+VPhsI998vWPnOkn8bGLHYJ7hPyv3aju8EMcVfprUGjUyF2u1oQxvWhEieq7prrRgHrckeXdwdXajJRpdjiGxW6k7mODWQ77gZN9mgssCqQGNLum2w=
+    properties :
+     x : 124
+     y : 58
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lib_Téléphone
+    identifier : 0x293f97911e9753ae
+    internal_properties : CAAAAAgAAADR52SNeVxKkAdEj1YOtss/8Co3LvOL4b/eICvw8u51B7v4dS8lWHghvv1RhE5EJGEM9E1Ny5pM1kVZkYL5XaD8MECHSmNH3cH4EuZF45kEGZstcp8G3kPbsPVkeieC41OGavm6+hYUkzPeMmytlqwOWQQM4Z/zfMe/FuS8+rdb40oxEN0eYJC3AJxMTVUvseo4764RndSXtVADlTxdZZ4JfvU6EmIBP8eWq7QQmf/rdK9v1196/6Ivg6Kk2vatwgzAP2ZzgKzCznBxJ5uekLpFUOj2KFyHuk6VOf9zY4t3TqTIGilaqJ/VyOKCks81IcC1QNImtwqV5pBbYu37VjHKgzSzDC3bE2gTI4yaLctAbwa6yMnW6NYn+1J63TsVsdif66C+so6bWN79jZyQLzwgDpGY2ww6+8PNAo9lj13e+s5q/z2e1bxMMTIECb++lB1e8tszMYUnesCwaFzFwAW8Ej29ZCzedrRiY3MUTGin7uXBmaOobXTjRzqSMjy+HQeXvGSlI3WmzeSMqdFJMSeV0bQvMu60LzwtsAWO
+    properties :
+     x : 124
+     y : 84
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Raccrocher
+    identifier : 0x293f97911e9853ae
+    internal_properties : CAAAAAgAAACHb0TNwWVlegsdlC+wLXemun4zqsrCZjwijVzhPGelol7ugjMyKS0DtWL2juT6sQgFJFtCg/sP6IprMz+54FLtG/HLQmiYU7p2sRA/9vmzBt4EzgUERt57JX89DJsHK0EoAmcex9Sh1RcbIqjTos+Ee/2OiffOhPxpOLKQAGi6S1NGYHlF3fU0h6feZCeEmjmNf1s8jh5ANZDs76AkbXAx9KMrTB0hYTfKPSpD1M2wPq8bghwKMR9ukvwKj5Cd2jDbmjXgYhE1pOrF1H1IcUr03YJvApwqLJ9VKhPOOVUbWFeBKoG9/AWaq6n58Rc0T3DIvFCwYEUNDYPYxtt+nS5G20A/EuoTvImRNkLMXK83kOUWw1IHyyc1qjs/WXGX5W3vKBDG2qU+Z2aORDfhmVcc8cCfIH4x/VbqIRhZkortVlz1FVWwjNkPdZ6xwJRFjX9sCF2AA3J0TqOISyDFEcDaK+aV2U8Oroaw6RIOuKBKt48inOIkP4yikAoLmmxcS9XWSh3mIcUyhJGdOq0D/lQQ04pp4Z/hm3ma30c1yXIc+9rtQyEucLPcNO8mK7iXfC4wLt1MIjilH7ScqNaE6LDqp4BZ3NQ/AnzLR/R7gzzAlAFP3deC+rchM8r0r1pwjLKvrD5T2YPEG3VqswJBvFJnsEV8CcXDf293PinAPJHKIkpPOnWC3nOFe+GZuNDgvkPVjVqbPFspgY2ZUGwFx2EDG3YCbZgVbckeXVCgjqTeqlhPCd0QZ3/qVdpbYL3U3/K1GTZtmJHi4NpSQosnD28Vf7R+w5x/jeOisPLJUjcGnJuk6+r4pm+zrYho2T0SYEaipA51PCdinCbOxHM98MkZmoeeRnoS4rtc5+G8mmPqfvz8I5wkE47Aq/iX+wzbTTK4Z76DWOQhDkrxTUVPSI6K7u5ydQ==
+    properties :
+     x : 229
+     y : 112
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         telRaccroche()
+         Multitache(-10)
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Lib_Société1
+    identifier : 0x293f97911e9953ae
+    internal_properties : CAAAAAgAAADCWxo/uj3aFrKx6weaEKt9cvbT/ckxoWYGOl22Xqws1GVxvQxcAP3bU7cYdCk1Jdj4qMnBzouzj5Nrg1fyyoSh259j8hiT6xGTpubS50w0HjHm7RcqUjAyOR7npT55YHm0o+XNQKOrEAHViST8HajtX6rwuYLHxREu4WzB8SlEiHghEIG2G7AVvxdhNBVb4NX6LnfQWNPBE/hYmzk3Pk/B8MVx9DHkQF+waEXc1MvjlJ2L8aurWYMFPbgLUNbL9rVgI7XmI/Pvq/ska0twyJAw9X+eRI3op/ix9Thx7fcWHYn+a/mcKS+10RWfJEMsOk8HToLSg89Bk086GYnCqH716033mUPbt6PGnrV3B2e6UxfXvMfWwjfy7afjX353oS5HakcLGkGiMS0BtdkFaKa8I7NLhthf6WlqPxB4ZX9fV77RHcCPinSx3I1JDZ0GTERoBhLW9vJ5cSlsSmAaDZwM1pmUYKVEWxcsh1CkNOXesB6garu4KcmE/j9Po8GP5bmo5xgcPaY=
+    properties :
+     x : 6
+     y : 6
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lib_Nom1
+    identifier : 0x293f97911e9a53ae
+    internal_properties : CAAAAAgAAADoT1q+OYcFAm0o34VhdC+R1T4I4vKJ+kip3So5ZEcJYxfov8S+sQ9MLV0J5Ufingek1A864+op6EYZTzYaUyAtMDBPM32ecUvOc4n5GxvuPlEqSxc49yUAVSegT0EeFmBlJdvRfsSueTLerBFZNxn6J1z4OcEnQVO1/XWoRrlWLULfMJ7H8YHZsRgEayDy03jgnqKlbN2Rl9P8CXsf8pbz+FLWAAntcl73Vx0jsycmr1SOK6xpIewbuBF/RC/YtaJ+O8WkYXnC+8b54TAKTPvBo+LHoK/CEthKqC623wP3uMFjHuckQ7pN8kCZY5XeczqtR9VgT7mgbTDVUbgkLAGmEzCaRS0HEouFm8/KVTebzn0iR3ni/taEZLBZeKpT5E9JV+r/kG8pRTzW545XAJ93YS569ODDgPvdFBKnz/1y2BZs9MC1vhtdgXhDKBuN6DdKrJd+DWXpNVzFgl/42xzRu9cxv968pBz1FqZ70tgpCX0lm+FCtJ3qng/Dt5eE59xItg2OF+DckLDhaQ==
+    properties :
+     x : 6
+     y : 32
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lib_Prénom1
+    identifier : 0x293f97911e9b53ae
+    internal_properties : CAAAAAgAAABZmRlZUUzZ7QBtq+UHGXICnXSBe0ambfrk8eqUkOdCKR/CfyYBw11mkpufOGIo0AMn40XuC351l5IV8BFsN+5negOHWoBDcduYhaAG9qryi0J3azDyJ7HCj1XfDut0mRQ37QSilhIKsyjs9tdWrKQ3h9VY3DA48bwWHkaRLKyMfWrMhwuGDl+dS8TUQmjStxIM+uXuBsCqpJizHRSeT9JXqe/bwCmSzrjRLLmXK/1wMWpjoiixVr8PxdLbKAiC/ir1OFSHuS/esdT8V0xeLFtH/Llbfi0yDsR1mkGzbFhgdeXJqRQxv7izwZQSbihjdL/DGcA/pt1qv7EvonFdX4x5XWSBAioRwqv29Vi5NBx0Dz0AaKixGIAyO9Dga2VGe5rTZU8O3wtH8ZcIGIsEh6b+71x33Ulv8nUQov+KSixtF0g8fasYECdhrIjIiCuiZbGiOQVSVjdzxb8jC4xIRUJnZD5/qBYyx+L9pLUqC97zt0RarLLhgOOMIbg+8hHibdleMAVbWDuW9koZrHtELbNG2w==
+    properties :
+     x : 6
+     y : 58
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lib_Téléphone1
+    identifier : 0x293f97911e9c53ae
+    internal_properties : CAAAAAgAAAAC9fkJnMVMFFPFGav4Tslp47dEoK0vrgijo1rezS5Hgr8xGgHW8I6pB39ZvJ1FhwUgS0rwbJIKbzUwLJJxAgkefb4auhlTC94eP5bA/wp62pVaTxEmawx9w9WmoNp1wgOD6pWb7GlkKnNzsysqRtcNcS5vPF1gjpXtjqBwrVdf5QrX5J295PnyLXcKdUInShYQwZJqhBXsiGOBp8juA4PiwVXc+VJAL0tbsQ7OnBMfe2m3bLBRB2D5OQDgo/l7WMiSkh15iIkz1gHTfkoiHnadKQpkrbSGS8kHJNNgc9EwbnG7S7Al4e9oRS68aWW+tHLb1dTXPvN3TOdXmqpIfNrmWfx53vZ/F9hKsUyeG634/PGKklBZToPHd6yMBKCL9x9nVX8CWxFmyHd4SHTntDhh2Rj7BaElYQg61KlVh8f9XGwwmUWioJosNPaGWm9wai79UHR68XO7V3ZwYr4QFa5slDZXODcNrgs7+lVI0LeGSRrdTI+4EhOklwJbWLbQhBSGKqwdOUyX
+    properties :
+     x : 6
+     y : 84
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x293f97911e9e53ae
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAoWzCeYBauj91v9+h7dAHchx6T4MXwgYMVhDikomEdeGpRSTwc3lKcB/uM2EZj6yfprqJijEJK8ojuurNJfHvH6c0Zs3t41K0mFg5qZHymLSTV4DIm6o3yJlSt0OucCxg=
+  controls :
+   -
+     name : Case1
+     identifier : 0x293f97911e9d53ae
+     internal_properties : CAAAAAgAAAAKAvWr2IWQhcRsKxW+nfJc+35AhPIqdlxqOaIBhCn3opbCPL6iR/muMx3NRXFWUkz7pTD/YEBbIotn9L3Ur3sC3SPYXV0Qz5m6+sAqFw0zaOLHVtXljMxYEg==
+     type : 62
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1-
+      
+      // On met à jour l'affichage
+      FichierVersEcran(FEN_APPEL_CONTACT, CONTACT)
+      
+      // On compose le numéro de téléphone correspondant au contact
+      ComposerNumTel(CONTACT.Téléphone)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : EtatAppel
+     procedure_id : 1819339423575593902
+     type_code : 14
+     code : |1-
+      // Cette procédure est appelée par la fonction W-Langage "telCompose" en tant que CallBack
+      Procédure EtatAppel(nEtatAppel est un entier)
+      
+      	// On indique à l'utilisateur l'état de la connexion 
+      	SELON nEtatAppel
+      		CAS telLigneOccupée : 
+      			// Ligne occupée
+      			Message("La ligne est occupée")
+      	
+      		CAS telLigneDecrochée : 
+      			// Ligne décrochée
+      			Message("Connexion établie")
+      	
+      		CAS telLigneNumérote : 
+      			// En cours de numérotation
+      			Message("Numérotation en cours")	
+      	
+      		CAS telLigneTonalité : 
+      			// Réception de la tonalité
+      			Message("Réception de la tonalité...")
+      	
+      		CAS telLigneRaccrochée : 
+      			Message("Le correspondant a raccroché")
+      	
+      		CAS telLigneAttendRéponse : 
+      			Message("Recherche du correspondant")
+      	
+      		CAS telLigneSonnerie : 
+      			Message("Sonnerie chez le correspondant")
+      	
+      		AUTRE CAS
+      			
+      	FIN
+     type : 458752
+   -
+     name : ComposerNumTel
+     procedure_id : 1819339423575659438
+     type_code : 14
+     code : |1-
+      Procédure ComposerNumTel(sNuméroTel est une chaine)
+      	
+      	// On compose le numéro
+      	SI telCompose(sNuméroTel, EtatAppel, 15) ALORS
+      		// Communication établie	
+      		Message("La communication est établie")
+      		Info("La communication est établie, vous pouvez décrocher")		
+      		RETOUR
+      	SINON
+      		// Erreur lors de la composition du numéro
+      		Si Sansespace(ErreurInfo()) <> "" alors
+      			Erreur(ErreurInfo())
+      			Ferme
+      		FIN
+      		
+      		// On teste si la ligne est occupée
+      		SI telAppelEstOccupé() ALORS
+      			Info("La ligne est occupée")
+      			Ferme
+      		FIN
+      		
+      		// On teste si le correspondant a répondu
+      		SI telAppelPasDeRéponse() ALORS
+      			info("le correspondant n'a pas répondu")
+      			Ferme
+      		FIN	
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenêtre_Appel_Contact
+resources :
+ string_res :
+  identifier : 0x3c33310133e857f8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text : {}
+     index : 0
+   -
+     text :
+      fr-FR : La ligne est occupée
+     index : 1
+   -
+     text :
+      fr-FR : Connexion établie
+     index : 2
+   -
+     text :
+      fr-FR : Numérotation en cours
+     index : 3
+   -
+     text :
+      fr-FR : Réception de la tonalité...
+     index : 4
+   -
+     text :
+      fr-FR : Le correspondant a raccroché
+     index : 5
+   -
+     text :
+      fr-FR : Recherche du correspondant
+     index : 6
+   -
+     text :
+      fr-FR : Sonnerie chez le correspondant
+     index : 7
+   -
+     text :
+      fr-FR : EtatAppel
+     index : 8
+   -
+     text :
+      fr-FR : La communication est établie
+     index : 9
+   -
+     text :
+      fr-FR : "La communication est établie, vous pouvez décrocher"
+     index : 10
+   -
+     text :
+      fr-FR : le correspondant n'a pas répondu
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

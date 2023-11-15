@@ -1,0 +1,312 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ARRIVEE_APPEL
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ARRIVEE_APPEL
+ identifier : 0x293f97ae24b4c62e
+ internal_properties : CAAAAAgAAADzi3w5YiFF7/lyPLVgj26t9IMqCIg1MrRSSkoctB+xo6fKUEGJssj2bqYLcTJvDpcudjJVFeKkybWkzBbeuRBSYUxnI7fj/cWGMoNjRYa0equZNB3ZYdMXEBhZsdbtoUjwnQ/6Bpe2UF6xjfTAYOJDPwfI4RT+4kxhjESg2cejmgkL6olq5QEeVgIYd4odmT5DMtoad/BWXLw+J57gafOqWAJntYE/uVYYxFMInL0yA0a5T/oDT0DBFh2J2R9439Qo69pAdQmM61xX0CtYKQ32a1iGSoWcD5qBp7m+9Ta93htvWfm3NWho4pGKVOGVUIsdHLSSwB8wIgPijoiHDIdovaX0mIcUrAwdIe+Be0CKwdH6Vor2VfNstyHbxXbe9jWDUgVw18S3HNJr8DHgRIf5Tt8w+ohKM3J/Mc/dUG0wV9o9nBCb4XXtSzOCA/6cAV4cRX4bvC4TlkTiO3hqk4SFnBcU4LFvANI90JnMC0gLMobarqoRbtWuWQjrhqpuJCd8bqUTj/+H5ADmOUi6Fo/5amCZ8RIzSZrLJSBci8IfM6JKDooDsUUzNh+a3oupDm6Y51I2GGfHrXg3qDKhl9th7PqBMWhD3SvkoulQV0nJiI/cQDGxVNASBFs4nVNGi/493cj/KkAepHL4F0WWBRWp2MVPpiHmBWzM+HUv1SGUxWDBtqN99YPfBWdgYwD40r9PYfip5qlFawprjJoBoSsL8BBcrC/WXkuMntYDYmiczKGUpjfEwcGuMR1EnQMAmYD0kD4phDhykYGdZtfHGNMh+IlA4iHgYwUfXH0+VtT1UKQOw8zsZ+41NTRMRlMjgL2qNSv2vYUTETs=
+ properties :
+  width : 453
+  height : 250
+  widthClient : 451
+  heightClient : 218
+ controls :
+  -
+    name : LIB_Libellé1
+    identifier : 0x293f97ae24b7c62e
+    internal_properties : CAAAAAgAAADwKfNzrMKRGRjSjBermRas1NqtgNHJ/GITRWBNIV9moocCiUutXsRS4ocrDtvmu5oQMXitZGxCV6kq8x8TgLVCo/tMc37qFZgdrKLMJwuZbTZrvW7GYH7BUn1OfIsm4YZhtB0i/OyDHrIgyBXaH5ZiMuClx49UiAMoqvWngzbPdNXm7mmZShh1sALeUL+IDp+PWOC/IUmqglAvCoObFSCscOWiXqkmEFXQeR772DpTH4g2SQgD+MpWUUbupB0QAw/72egrUUZL0U4O/H88tE9g55DB8fSFEZbRtnfz8gz5+5HER0Xfr7fUnNXlR6lQ3G3M5ozeFrhCqXXD2f7Rhz7g27IUWanTQ45HRNYMCr+URrhMQ612J1Gax8mKJVPoUNnkg8by4RtusHZPDjhja5nDIo/0/TUTbcY8BsKiDXetFiucDzwEfHbkgN7Dq+V/yVLpAL5UKgHWa/l45LEaHJIccwdKWby4QgKSMb/VflXAEfuRJ7pZcr+swKdKGZJPhSbBlZO+lrz6HUEY8pF0gelA+YNXf9dtmVg=
+    properties :
+     x : 6
+     y : 6
+     width : 218
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Libellé2
+    identifier : 0x293f97ae24b6c62e
+    internal_properties : CAAAAAgAAADFEb9Ggv1tGwAEGlKiupvdYUDsfw4jV6rMjVGp6N7iNOPeM/tgAeSIttmDuX/qafzmh7HntbKJCeu060B0VQPzkNX+GmpcpGDmvIvgerSFrFlUzMH+UtvcPC/4GhL7Kbfp/fVEanYPgqGDD/MvMdl629qC0xkzs1VPWvY2xVoxTDn+fmFvNZkwKdQerfubNcRRd1e02PHBfSIEKsvBx7QFohn06QQ1vf4cJopAjzXHyuphhTrqmLXQOWOk8Z6/gVCO7iXUNbZ4AJCkk1Htzd17hTRAtqKo+bvyQ8rWXKVWSPy2sGTR+c177fN5ZgLBxqv3uNESzsCBHiiyYkqsNZsgM0ht6KQstGEDNP6F3nKc10SO+qAGrz8BaXiz70qezKHSGRgpK6xQpeRmUHzzrHxgPkviXaSqKM6/SvzkE7SOdjK3tgQ8LFdcZHJM8gdQ8kZZy0SAFK99RdBe5RU7abYqVwa6uWCFba/VehbC08Wqe6eZq2nupAAXO5Q4gOm3SGv/OU91K08s6jr8bD9ow+VWuEw=
+    properties :
+     x : 6
+     y : 44
+     width : 437
+     height : 133
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Libellé3
+    identifier : 0x293f97ae24b8c62e
+    internal_properties : CAAAAAgAAACQP77CcyhEmETjHUaOSyLjMSdP/BaLNLtCIeBxvNz96PvSSCUmAs70Noio9EYY4C4aOyqNsne+WRGsc3I4vi+9GCBllcktTXDuk+LnCRDBbftPW562I8NBVELR9BRaFASMYrDSpV1mn24LlVeWiIEtYjG08ez9XyPdvD8K+6ujUcgB21GFvpgxtOUu1yKTX/uK9gmRJ+B6drakxGItRMPIBqxJYT7TAY11eqxZ88+knbrkkjMyDH3Lk7aIy6DoL1v8RAthYXMY46fF1O1A5YuqW5ghZWpm14fy4dy+dOn1L6iPH3fWeQFD23biooxQQ3DKoXwBjtsXth+gRv18FlzjNuQSuG/NhtFBEnkvf6bmXbQqn6ZGwTbODyjv26WkENy6SkVfSPcdxm7ztsQ7GT0e6RBoChViN25qSGDoUvdX0fq+/cbgNVA41D9wF5TWol1719OIREYXaPHM8psRiRuG6mCP8RClUmLo+T2OAaI=
+    properties :
+     x : 13
+     y : 64
+     width : 125
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Libellé4
+    identifier : 0x293f97ae24b9c62e
+    internal_properties : CAAAAAgAAAAMnEiOsIJWtFtyNqa3o5HkohXfe8HQJBJRfAM8as826mpcjyHNB+K9QlQBhUQ9SJMQnRFEd7wex5PQAQ8VyFb+4t18hJ5bgwgatEIpmujl5JUdw75mz99DfDN7iJ2rssr5EjuXO3rcWgMnQEBF82jI5g8JCkcFPfsHR0QVKIGpn791JS29XjjxgVzRoNecR50k+Km/iM9T5n96uYxzu03OG9Q2Ae2bRV72wd6qXoNe/RzI/G68geNP/EsUfk9TWhNXOhGeH4YRiw7/NZDbzISu9pz9tpQFQL/Hh1l9J6KEtYn3Z8xK9jyHCKT5R3HzbJJxvYDw9upiyvBQ19DTCW2jK7wKSUHyYdWkOKY+VqGFPTEY/a1M5G3SrDgGYP7bc0ZTqvXy8jZ2VtsfCS2scNgq0pLaJks/NmBV7sflYs0fWjybaFtOlGK+Yc+aqwBq4nSh/E6J1Zx8O8xfki5pLGJ8Any6nviTxN2bqMPGjUB2pP7buzNqUJc=
+    properties :
+     x : 13
+     y : 92
+     width : 125
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_NOM
+    identifier : 0x293f97ae24bac62e
+    internal_properties : CAAAAAgAAACYr0TfQg8kjP3inycW7DH4Zg4u87pYeDwqTlZE53rNukUlGAuK2iwtWqYiei6CNkiT5uGa23uTjKEb1soNoaFgarhUKoVd6dNcyTtZ2QpZthDvG2UEZHFsoqZyJ7S2i4CUSQyaOU78TAS6KFga6bl2JhEC3CZZGvaTOQ+NleMjfveIf45DipGGQq8ZkxG/IV9M1bbyAmVaggGavTWoGtXGEUV7Z14V4TD96Uk4bPS2KCx6ujYBVGoifHu3qVJpZmZgbxRuh46oWSKQGkDL29E2d9e/N24grn2XowgqEqvU2c70Nj+3XSaoyaAjYKtcq/eJTGCPFW5e72oQkxc2q/zJlNpEViyTYIiGD8EXWFiT0hZ4JdGGUyTODnjjC1SBFT/oZKiDNTV9z6LSfgRm9rFtpqMNKcahKs3T+hr2POMZxa4M+v6oH+GvFFUP/H0xV8k/SRTyZ2+clMTIakoxQl01/E7gnEspbX7UswS0ndpluWxwyEQGyB8LtGpNfPOk
+    properties :
+     x : 165
+     y : 92
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_PRENOM
+    identifier : 0x293f97ae24bbc62e
+    internal_properties : CAAAAAgAAACElqbrLhdS93Cgy0MIKeO4hfA4NwRC0AD7bsvoANsWJw27tLMRo4wYuUXl4rHoRsnF05AFJwvcCWUEPc9fFxUhFuVbGlGtl5albYkUJhY7TlRA+Fvz8thYW7Hgk5CR1888Umsy0Zb9kmqK6hG5aa8hsQppDq3NVO4T6pJbWJbdcztJq1yqShZNcaBxa/BNChC6RNoogF3bnmPKR7RZivPsupQOHtaBOvPpX5Ohg7hU9srEyNzIMCUciqHjIFKySv1z3sKGPD/zGt+T7ntR1M0rbaGKcbyXMMhND10fj6wo8ob5jpeT1VS/eK3Kh1RBt6A6dEP0/MhrYkffVl3wNF6Nr6t+d70LC0+0a7BhFlpMpgoRualt5R4x1i2NJV/SMJUagR8vTZR5DAC5FyrH+Omrp8JNJmZuHbDag0QDKDa8Hjymv6MRHwPMfoWqMKsn472FeDk6Xy1uJf4uKIU0otss2GlzbmilQI+32TL2gkfqFWCxY/NArVa8ipFRV50U5pVryIW/9OoifdPLVkE=
+    properties :
+     x : 165
+     y : 120
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_SOCIETE
+    identifier : 0x293f97ae24bcc62e
+    internal_properties : CAAAAAgAAAAG1++hUEYG9CgqZUU/R5/yQjswwNu9RWpp8D/9KJ1CzHmLIkgzC4cMRc1AtkZMO9BBAv8crJihfACnm2gBEcy+HX3Re3iBXCII6krM2nXUIzGl+sIftX/WEZOA+O+XLo/YYHoCj+EwNmtW6Lu5vH8rgJ3PRnrq6NNFjkTBhjTot6OPmy600U6nqTkaGcXVYzYUrwW+qUKbam1/7mQyj49jmglL5Yq5luzZzcCdNQY26DTisGLg1ExjkfFGJJwKW8N6PuRY9W23NwHgLb7BCnfAsGF53QUdmP0X9t4Qm1ra89m51U2wgbSUlNIBgECThXk1CGb4CwgPFyGy3zzG2MaIiL3x4Z6BF8hEfM+gLjh+7/UXiGW6J2gQkLqsCCv8LHgv62ItOJKlf9TwQF3ZNOUQCoSQZv1gX8U2JgXUOCCwn39GaP38pV8fajK54RuhWaKY0DCy2G1mUkiTE5QP7dZeCsbHrV4+mZUuW+pOLR75jRjI21I8qwBxxiAZAKPrUQ==
+    properties :
+     x : 165
+     y : 148
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Ignorer
+    identifier : 0x293f97ae24bdc62e
+    internal_properties : CAAAAAgAAABYT4nkoBRoXsXjF170guZu/GTcQiL00clSr6FekaeT1RxHG3fXGsXxcQmJx2Tdo5WNwkK6xBa1KGXS+lPW9Jgg+Q4Xf6lkxSjKL7xg6nYWQ51Sn2TJYPjTfSt4UPe3dnfRXAnPdIyNUZgtXm9pEGTs08OVbntY5XpT/m19ZJDeB5AZWxyAfpF9vVCEKrt9ooMjDqwtq1vantTVGJtml/5CyPtPEZf8kbPwfQIW6vt4BfXRjpxWEy+/1hlmXZ52ig7eUsayqs2LLCettwCC4jTWbpxaN09YU0Kt39FAMEAS6DqZrTWpv5xOT38iB5n9O4H9fQnDSZ+cegPla1UL+vfYpeF5AZTz97BCm+3EcfID1K98r3y21Z15IfDUxeXgEK66j8SYXh4+xUwnE8u84F7g7VU3of4NEaCaYSfyIlaPB9Z9LWyPsm5XZ93CgqsMDg1x7M75Fym2OVK9brAeNIoRVLFXQM6iWHkBtP+ZL1UHNV37sxJHiGLzoB+vP+icf5vTB6DLKAeOaVXi/RIDi9FENNPzZygfaBkE4BvfPEIJtGOFsqN1UVmwv5H/fquv5H77DXc98tpqbsVD7yV1p+aa9IQWGDfMKXX1Z78jHv27zKnLqQr5bRrL1xlvHRvItkqVp4JVH1aP8gfpOOwARi2NPBDVMjSRCITRMjnySdulRW1pz0g93pUeLWw+3tvV9WrPUAEFqmRDKyZg+HwwXqc9Hl4YCNpYV6tTor2pD8sKPDRfKzLef+JSxxf+Lv1edKFOzedbL0HRdRxgVowUhLJXWjA8naSyxsEg8SvmqKwqXiasMkW5VNTfX21IKu5Xbqtq0nJ657FaOvRIfha8q/rq5cyjOXgADr8kyft0eJUYTmRH21tjksG0l1VCYgSapUI/mqA24ecSNXKq
+    properties :
+     x : 368
+     y : 187
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADbnYIZuRN/ll9sD2q8R6j5m60cbOhNAxM36nu4+NXPJ8HkVuDrCNl9+EMDBJCe9e5/CjpwEHTeEJKZHPGshHLQua1Qp8EgtJS4+lZAovbM1lfVpI/WD6ITRCSxCMM1i3ARMRONTpgqwrQGJ3w=
+        code : |1-
+         
+         // Fermeture de la fenêtre
+         SysIconeModifie(fRepExe() + [fSep] + "fax.ico", "En attente d'appel")
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Accepter
+    identifier : 0x293f97ae24bec62e
+    internal_properties : CAAAAAgAAADM+1LOM95Q7vmygHBrLOOOhQMaKe2sexcBfw0wCT222TBrzDLI3X3PIZykTcAOmABwLuKEhot5+b2r7qBVVvBW+0HDpS/y5dGEmYe7MJY9VZvQ3ErA4c/MOSCg/iEVKkYy+JNClebQY5ltJomY3mNsFT2hYjKz8d37v6XdGfDCgSknvIJOwnbPX41LOEYJTEBQouTHwSKu8wRPpCN46FvnjHqA2kKIMBLw/XyZ+k7GhAgAao7hmgmHI8ztD6+EuPzieqcX+WgrUnAyQr33BbZZfXtSZgnhGgMZlkNCvcRT1bnmKqkuAe4KD7UCy4DD2yoiX/PKLvrwcAU22ClkWXlaehd6CzUbd2RpjHVBvlPkhBVMQsfJFZVXpGWZWxuNtNEJoZpLB94xZ0ff4XfhZycbjZBG/xj5gP+05x8vUlAFW3OPx8peoGqiRscctl0udpO+Pe0G3kOnwQj2y4Z1NBbz0eoY/LNAJVXXjTJ3mC3jO+rOlIjAhrE7mhhMt1eq5Q9ybEvV6VEhlcczphZI6c8Ec+qW92EXRS+0T+Kfv5xTVNC2X+W4MfSiT16q3riXauqIhNr3xcqXug822tWKDbQCDWVjBmiysEupEtJdB7P57ILOQFLuEw/nebbkqSp4qvxwMFWpHIYSXJN08eDhMMdlv/vG9BmHz9I1z558bjcF/4bMiv6MXFSe5/Uddn5nh+4cZwo/5Qyot3gh7awnqFFVFzcXPikk/oMBN9j/9CdS3rlES2MYcJa5YH1iqSHZ71gesRvkV4hNRpPurk8SHV9MjBoWAP57KNIDoFCmgTJwOMxIzgjpFiGJD371NhE67DkDi7+/zXp2GTActJMNkbrUJDI9z6XsV4oNVkY+08pdP4z1DmQjT7b5zJ0ctp8XXYhiX+mlzB0U11zlLQ==
+    properties :
+     x : 287
+     y : 187
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAC7/aL5GXbONo8Mv7ok75DpI31s/GjNA9uPstMAqDVvr3E8jtizUPHNWMOjdOjGvd43WlqwIFQC1K6NeC0AUD4UHeFkq+WM+Gh0/hLM9jIY6rtZqINay+bXkPhddLchl0SF5VfBwjsKItTmB1w=
+        code : |1-
+         
+         // La communication est établie
+         Info("Pour prendre la communication, il suffit de décrocher le téléphone")
+         
+         SysIconeModifie(fRepExe() + [fSep] + "fax.ico", "En attente d'appel")
+         
+         // Fermeture de la fenêtre
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_TEL
+    identifier : 0x293f97ae24bfc62e
+    internal_properties : CAAAAAgAAADeyIQNRCmESYouRcXyo1Uy1+IuOUoUCkrFTLGCumWYWXcVMi3/LS5KI7M3/FOKEPXPhQKnuTUKS7/Sl5nxeVPPeG/NzLsXFej/uyOe6CiRLK5qmrUl5HYK5RdSQzCxJ888UpuCMVaNspoq6vEJGW8RwfpJrt39FP7zOgLLGNatc9up+ywq6sbNQSCRKyCdykCKNPpo0O27DuN6NyTZCgOs2vTejrYBihP5H/Mhk+gU5noUSNxYwAUMirGzcHLSGr0z3tLWPB8b0gdbNgPZzOXDtVky+SSvWKAVN2WH98QgKm4xFj/bzTy3YJXSTxy5LxiizAtcZOCTeq8nPqU47BbFd4PGv6Wjk+ec0zgpvrLkftIJgVHVfQYJ/vU1bedKSK0C+aeXFcwhREgB33Jv0KGj7z7JjipaveAK6+hLfMLEHox6UwOdi0v0Xk3+6K/To/VdVAXio+kWXb7OBDX6/BHmwgM1LI5/NrVpe0SUwIkYx4JrpTEG54xyfINDpSOeXA/lQg8lkhRII7XtCJc=
+    properties :
+     x : 165
+     y : 64
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x293f97ae24c0c62e
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABihQogGuh8kdNh+eoFegPegRCd4s/qj40ThjqmrGdp5WNZEdwkdrKEt+PEGNa7659FEh4u8A72NhSi7me90DeM6c8bsXl60qsgEAhwYn6kLybX4jAk9JP4OCb/hqHWUeI=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADQofYxWZtl3HRObDFiVIdsq5vebWpTF15iIADSiWYTU+Y8RwbeGWNAC525uI0PPmMCYFSkIBrebjAOqid1yiuiiYjD6IZjLbHvPEOFXh2nGZvCj1UeTS1TN5YiLc/QyEHFjVu5cpD+Do1T/Q0bCEXNa9q5AFrqTZll5w1MkjKRHxN2AJwkyn2MRRaJY8nQ4bfZ+GeqYtvfga6Le9/Ish1NAI1uGqIiunciFWtR7zUOMC05
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre(gnIdAppel est un entier)
+      
+      // Recherche l'identité de l'appelant
+      RechercheIdentite(telNuméroAppelant(gnIdAppel))
+   -
+     internal_properties : CAAAAAgAAACQX0w6H50e+PNuE84i98yvmwBRjUQ1lJ4ZQyezFT+GDwe4vNltDddvfkpbmQXiryTXoH/Ps5VtbBcoWnXXqDsjIIvCD/Kmiyh9IXqovQhhJfad3CXdJZ3jnzWnBnRXBumKUXPHjvW6Q4BpgQ==
+     code : |1-
+      
+      SysIconeModifie(fRepexe() + [fsep] + "telephon.ico", "Appel détecté")
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : RechercheIdentite
+     procedure_id : 1819339548132492846
+     type_code : 14
+     code : |1-
+      Procédure RechercheIdentite(sNumTel est une chaine)
+      	
+      	// On met en forme le numéro de téléphone
+      	sNumTel = Droite(SansEspace(sNumTel), 9)
+      	
+      	// On recherche dans le carnet d'adresse
+      	HLitRecherchePremier(CONTACT, TélSurNeuf, sNumTel)
+      	Si htrouve(CONTACT) alors
+      		LIB_NOM 	= CONTACT.Nom
+      		LIB_PRENOM 	= CONTACT.Prénom
+      		LIB_SOCIETE = CONTACT.Société
+      		LIB_TEL 	= CONTACT.Téléphone
+      	SINON
+      		LIB_NOM 	= "CONTACT INCONNU"
+      		LIB_PRENOM 	= "CONTACT INCONNU"
+      		LIB_SOCIETE = "CONTACT INCONNU"
+      		LIB_TEL 	= telNuméroAppelant(gnIdAppel)
+      	FIN
+     type : 458752
+   -
+     name : FinAppel
+     internal_properties : CAAAAAgAAABK+2WcazjmxeL09dy7zd9o8AeyP2JhpTQ1OQQoHI1IRWoVdfvr/S3s9SDVHQR8Tq9IfbESitrY337s0S38315RTGoqc00j0tWyNcNwkA8EmUbrgtkeqT4zEXmOHQA/rGsOs+XIz+S/BgMGbnWR
+     procedure_id : 1819339548132558382
+     type_code : 14
+     code : |1-
+      Procédure FinAppel()
+      
+      	// On met un message d'information
+      	Message("La communication a été arrêtée par votre correspondant")
+      	
+      	// On remet l'icône d'attente
+      	SysIconeModifie(fRepExe() + [fSep] + "fax.ico")
+      	
+      	// On envoie une notification si l'on n'a pas répondu si demandé (si on connait le contact)
+      	si gvcConfig.bNotifierEmail et pas telNuméroAppelant(gnIdAppel) ~= "" alors	
+      		NotificationAppel(LIB_NOM, LIB_PRENOM, LIB_SOCIETE)	
+      	FIN
+      	
+      	// On ferme la fenêtre d'arrivée d'appel
+      	Ferme
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenetre_Arrivee_Appel
+resources :
+ string_res :
+  identifier : 0x3c207e927c246e9a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text : {}
+     index : 0
+   -
+     text :
+      fr-FR : telephon.ico
+     index : 1
+   -
+     text :
+      fr-FR : Appel détecté
+     index : 2
+   -
+     text :
+      fr-FR : CONTACT INCONNU
+     index : 3
+   -
+     text :
+      fr-FR : La communication a été arrêtée par votre correspondant
+     index : 4
+   -
+     text :
+      fr-FR : fax.ico
+     index : 5
+   -
+     text :
+      fr-FR : En attente d'appel
+     index : 6
+   -
+     text :
+      fr-FR : "Pour prendre la communication, il suffit de décrocher le téléphone"
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
